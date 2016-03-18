@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <title>EQCSS Responsive design demo</title>
+    <style>
+        @element 'p' and (min-characters: 8) {
+            $this {
+                color: Red;
+            }
+        }
+        @element 'p' and (max-characters: 3) {
+            $this {
+                color: Blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Hello developers. welcome to EQCSS. </p>
+    <p>Bye</p>
+</body>
+<script src="http://elementqueries.com/EQCSS.js"></script>
+</html>
